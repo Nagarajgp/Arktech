@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArkTech</title>
+<style>
+        * {
+  box-sizing: border-box;
+}
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+<style>
+ * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  </style>
+<style>
+   img {
+      border-radius: 5px 5px 0 0;
+  }
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 100%;
+      border-radius: 5px;
+      background:white;
+  }
+  
+  .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+      padding: 2px 16px;
+      
+  }
+ 
+  </style>
+</head>
+<body class="bg">
+    <style>
+        .bg{
+      background: linear-gradient(to right,  rgba(80, 190, 241, 0.692),  rgb(201, 94, 250) );
+    }
+    </style>
+    <div style="text-align:center;">
+      <p style="font-family: 'Fredericka the Great', cursive; font-size:60px; color: white;">ARK Tech</p>
+      <p style="font-family: 'Fredericka the Great', cursive; font-size:20px; color: white;">About us | Products | Contact us</p>
+    </div>
+<script>
+var i = 0;
+var txt = 'Hardware is a vital element for any business today!'
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+onload=typeWriter
+</script>
+
+        <p align=center id="demo" style="font-family: 'Cabin Sketch', cursive; font-size:40px; color: white;"></p>
+      
+      
+        <p align=center style="font-family: 'Cabin Sketch', cursive; font-size:20px; color: white;">Ark Tech is a technology company mainly focuses into sales of computer and netwroking devices not limited to services too!</p>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="home.jpg" style="width:100%">
+              <div class="container">
+                <h4><b>Computer Hardware</b></h4> 
+                <p>Desktop PC, Laptop, Server, Motherboard, Accessories</p> 
+              </div>
+            </div> 
+
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="home.jpg" style="width:100%">
+              <div class="container">
+                <h4><b>Networking devices</b></h4> 
+                <p>Router, Switch, Gateway, Repeater, Accessories</p> 
+              </div>
+            </div> 
+
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="home.jpg" style="width:100%">
+              <div class="container">
+                <h4><b>Services</b></h4> 
+                <p>Computer repairs, Netwroking, assembly and more</p> 
+              </div>
+            </div> 
+
+          </div>
+        </div>
+        <p align=center style="font-family: 'Cabin Sketch', cursive; font-size:40px; color: white;">Contact us</p>
+        <p align=center style="font-family: 'Cabin Sketch', cursive; font-size:20px; color: white;">
+          +91 9845231861, +91 7892961498, Laggere, Bangalore -560 058</p>
+
+
+</body>
+</html>
